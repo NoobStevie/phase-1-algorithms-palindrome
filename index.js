@@ -50,6 +50,9 @@ if (require.main === module) {
 
   console.log("Expecting: false");
   console.log("=>", isPalindrome("robot"));
+
+  console.log("Expecting:true");
+  console.log("=>", isPalindrome("abba"));
 }
 
 module.exports = isPalindrome;
